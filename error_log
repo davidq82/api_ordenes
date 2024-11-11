@@ -1,0 +1,45 @@
+[12-Oct-2024 11:13:47 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1305 Unknown error 1305 in /home/lamsysco/public_html/api_reservas/Core/Models/CategoriasModel.php:39
+Stack trace:
+#0 /home/lamsysco/public_html/api_reservas/Core/Models/CategoriasModel.php(39): PDOStatement->execute()
+#1 /home/lamsysco/public_html/api_reservas/Core/Controllers/CategoriasController.php(96): ModeloCategorias::mdlMostrarCategorias()
+#2 /home/lamsysco/public_html/api_reservas/Core/Routes/Rutas.php(32): ControladorCategorias::ctrMostrarCategorias()
+#3 /home/lamsysco/public_html/api_reservas/index.php(15): Rutas->manejarRutas()
+#4 {main}
+  thrown in /home/lamsysco/public_html/api_reservas/Core/Models/CategoriasModel.php on line 39
+[12-Oct-2024 11:19:43 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1305 Unknown error 1305 in /home/lamsysco/public_html/api_reservas/Core/Models/CategoriasModel.php:39
+Stack trace:
+#0 /home/lamsysco/public_html/api_reservas/Core/Models/CategoriasModel.php(39): PDOStatement->execute()
+#1 /home/lamsysco/public_html/api_reservas/Core/Controllers/CategoriasController.php(96): ModeloCategorias::mdlMostrarCategorias()
+#2 /home/lamsysco/public_html/api_reservas/Core/Routes/Rutas.php(32): ControladorCategorias::ctrMostrarCategorias()
+#3 /home/lamsysco/public_html/api_reservas/index.php(15): Rutas->manejarRutas()
+#4 {main}
+  thrown in /home/lamsysco/public_html/api_reservas/Core/Models/CategoriasModel.php on line 39
+[12-Oct-2024 11:23:12 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1305 Unknown error 1305 in /home/lamsysco/public_html/api_reservas/Core/Models/CategoriasModel.php:39
+Stack trace:
+#0 /home/lamsysco/public_html/api_reservas/Core/Models/CategoriasModel.php(39): PDOStatement->execute()
+#1 /home/lamsysco/public_html/api_reservas/Core/Controllers/CategoriasController.php(96): ModeloCategorias::mdlMostrarCategorias()
+#2 /home/lamsysco/public_html/api_reservas/Core/Routes/Rutas.php(32): ControladorCategorias::ctrMostrarCategorias()
+#3 /home/lamsysco/public_html/api_reservas/index.php(15): Rutas->manejarRutas()
+#4 {main}
+  thrown in /home/lamsysco/public_html/api_reservas/Core/Models/CategoriasModel.php on line 39
+[12-Oct-2024 11:24:36 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1305 Unknown error 1305 in /home/lamsysco/public_html/api_reservas/Core/Models/CategoriasModel.php:39
+Stack trace:
+#0 /home/lamsysco/public_html/api_reservas/Core/Models/CategoriasModel.php(39): PDOStatement->execute()
+#1 /home/lamsysco/public_html/api_reservas/Core/Controllers/CategoriasController.php(96): ModeloCategorias::mdlMostrarCategorias()
+#2 /home/lamsysco/public_html/api_reservas/Core/Routes/Rutas.php(32): ControladorCategorias::ctrMostrarCategorias()
+#3 /home/lamsysco/public_html/api_reservas/index.php(15): Rutas->manejarRutas()
+#4 {main}
+  thrown in /home/lamsysco/public_html/api_reservas/Core/Models/CategoriasModel.php on line 39
+[12-Oct-2024 11:25:12 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1305 Unknown error 1305 in /home/lamsysco/public_html/api_reservas/Core/Models/CategoriasModel.php:39
+Stack trace:
+#0 /home/lamsysco/public_html/api_reservas/Core/Models/CategoriasModel.php(39): PDOStatement->execute()
+#1 /home/lamsysco/public_html/api_reservas/Core/Controllers/CategoriasController.php(96): ModeloCategorias::mdlMostrarCategorias()
+#2 /home/lamsysco/public_html/api_reservas/Core/Routes/Rutas.php(32): ControladorCategorias::ctrMostrarCategorias()
+#3 /home/lamsysco/public_html/api_reservas/index.php(15): Rutas->manejarRutas()
+#4 {main}
+  thrown in /home/lamsysco/public_html/api_reservas/Core/Models/CategoriasModel.php on line 39
+[12-Oct-2024 17:09:59 America/Argentina/Buenos_Aires] PHP Warning:  Undefined array key "id" in /home/lamsysco/public_html/api_reservas/Core/Controllers/CategoriasController.php on line 66
+[12-Oct-2024 17:09:59 America/Argentina/Buenos_Aires] PHP Stack trace:
+[12-Oct-2024 17:09:59 America/Argentina/Buenos_Aires] PHP   1. {main}() /home/lamsysco/public_html/api_reservas/index.php:0
+[12-Oct-2024 17:09:59 America/Argentina/Buenos_Aires] PHP   2. Rutas->manejarRutas() /home/lamsysco/public_html/api_reservas/index.php:15
+[12-Oct-2024 17:09:59 America/Argentina/Buenos_Aires] PHP   3. ControladorCategorias::ctrEditarCategoria() /home/lamsysco/public_html/api_reservas/Core/Routes/Rutas.php:52
